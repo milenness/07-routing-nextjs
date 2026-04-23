@@ -1,6 +1,6 @@
 import { fetchNoteById } from "@/lib/api";
 import Modal from "@/components/Modal/Modal";
-import NotePreview from "@/components/NotePreview/NotePreview";
+import NotePreview from "./NotePreview.client";
 
 type Props = {
   params: Promise<{ id: string }>;
