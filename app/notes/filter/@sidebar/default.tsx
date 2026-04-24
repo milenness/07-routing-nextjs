@@ -1,7 +1,7 @@
 import Link from "next/link";
 import css from "@/components/SidebarNotes/SidebarNotes.module.css";
 
-const TAGS = ["Work", "Personal", "Shopping", "Ideas"];
+const TAGS = ["Todo", "Work", "Personal", "Meeting", "Shopping"];
 
 const NotesSidebar = () => {
   return (
